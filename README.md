@@ -1,166 +1,136 @@
 # 🚀 Nihongo Desu - Advanced Japanese Translation System
 
-## 概要 / Overview
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Nihongo Desu は、英語と日本語間の高度な翻訳を提供する Streamlit ベースのアプリケーションです。言語検出、テキスト翻訳、音声生成、履歴管理などの機能を備えています。
+## 📖 概要 / Overview
 
-Nihongo Desu is an advanced Japanese translation system built with Streamlit, providing seamless translation between English and Japanese. It features automatic language detection, text translation, audio generation, and history management.
+**Nihongo Desu** は、英語と日本語間のシームレスな翻訳体験を提供する、Streamlit ベースの高度な翻訳アプリケーションです。
 
-## 🌟 特徴 / Features
+最新の翻訳エンジンと音声合成技術を組み合わせ、テキスト翻訳だけでなく、発音確認やファイル翻訳までサポートしています。学習者からプロフェッショナルまで、幅広いユーザーに使いやすいインターフェースを提供します。
 
-- **自動言語検出 / Automatic Language Detection**: 入力テキストの言語を自動的に検出
-- **双方向翻訳 / Bidirectional Translation**: 英語 ↔ 日本語の翻訳
-- **音声生成 / Audio Generation**: 翻訳結果の音声出力 (gTTS 使用)
-- **ファイル翻訳 / File Translation**: テキストファイルのアップロードと翻訳
-- **翻訳履歴 / Translation History**: 過去の翻訳を保存・表示
-- **ダークテーマ / Dark Theme**: 目に優しいインターフェース
-- **ダウンロード機能 / Download Feature**: 翻訳結果のテキストダウンロード
+**Nihongo Desu** is an advanced translation application built with Streamlit, offering a seamless translation experience between English and Japanese.
+Combining modern translation engines with text-to-speech technology, it supports not just text translation but also pronunciation checks and file translation. Designed for everyone from learners to professionals.
 
-## 📋 要件 / Requirements
+---
 
-- Python 3.8+
-- Streamlit
-- deep-translator
-- gtts
-- langdetect
-- pandas
+## 🌟 主な機能 / Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **🔄 双方向翻訳 / Bidirectional** | 英語 ↔ 日本語の高精度な翻訳 (High-precision En↔Ja translation) |
+| **🔍 自動検出 / Auto-Detection** | 入力テキストの言語を自動で判別 (Automatically detects input language) |
+| **🗣️ 音声再生 / Text-to-Speech** | 翻訳結果をネイティブな発音で読み上げ (Native pronunciation playback) |
+| **📂 ファイル翻訳 / File Support** | `.txt` ファイルをアップロードして一括翻訳 (Batch translate uploaded .txt files) |
+| **📝 履歴機能 / History** | 直近の翻訳履歴を保存・参照可能 (Save and view recent translation history) |
+| **📥 ダウンロード / Download** | 翻訳結果をテキストファイルとして保存 (Save translations as text files) |
+| **🌙 ダークモード / Dark Mode** | 目に優しいダークテーマ標準搭載 (Eye-friendly dark theme included) |
+
+---
 
 ## 🛠 インストール / Installation
 
-1. リポジトリをクローン / Clone the repository:
+### 前提条件 / Prerequisites
+- Python 3.8 or higher
+- Git
+
+### 手順 / Steps
+
+1. **リポジトリのクローン / Clone the repository**
    ```bash
    git clone https://github.com/yourusername/nihongo-desu.git
    cd nihongo-desu
    ```
 
-2. 仮想環境を作成 / Create a virtual environment:
+2. **仮想環境の作成 (推奨) / Create Virtual Environment (Recommended)**
    ```bash
    python3 -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
+   source venv/bin/activate  # Mac/Linux
+   # venv\Scripts\activate   # Windows
    ```
 
-3. 依存関係をインストール / Install dependencies:
+3. **依存パッケージのインストール / Install Dependencies**
    ```bash
    pip install -r 要件.txt
    ```
 
-## 🚀 使用方法 / Usage
+---
 
-1. アプリケーションを起動 / Start the application:
-   ```bash
-   streamlit run アプリ.py
-   ```
+## 🚀 使い方 / Usage
 
-2. ブラウザで http://localhost:8501 にアクセス / Open http://localhost:8501 in your browser
-
-3. 翻訳を開始 / Start translating:
-   - テキスト入力欄に翻訳したいテキストを入力 / Enter text to translate
-   - またはテキストファイルをアップロード / Or upload a text file
-   - 「🚀 翻訳開始」ボタンをクリック / Click the "🚀 翻訳開始" button
-
-## 📖 使用例 / Examples
-
-### 基本的な翻訳 / Basic Translation
-
-**英語 → 日本語 / English to Japanese:**
-- 入力 / Input: "Hello, how are you?"
-- 出力 / Output: "こんにちは、お元気ですか？"
-
-**日本語 → 英語 / Japanese to English:**
-- 入力 / Input: "こんにちは"
-- 出力 / Output: "Hello"
-
-### ファイル翻訳 / File Translation
-
-1. テキストファイル (.txt) をアップロード / Upload a text file (.txt)
-2. 内容が自動的に読み込まれます / Content is automatically loaded
-3. 翻訳を実行 / Run translation
-
-## 🏗 アーキテクチャ / Architecture
-
-```
-nihongo-desu/
-├── アプリ.py                 # メインアプリケーション / Main application
-├── 要件.txt                 # 依存関係 / Dependencies
-├── 翻訳/                    # 翻訳モジュール / Translation modules
-│   ├── 翻訳エンジン.py      # Google Translate API ラッパー / Google Translate wrapper
-│   ├── 言語検出.py          # 言語検出機能 / Language detection
-│   └── キャッシュ.py        # 翻訳キャッシュ / Translation cache
-├── データ/                  # データ管理 / Data management
-│   ├── 履歴管理.py          # 翻訳履歴 / Translation history
-│   ├── ログ管理.py          # アプリケーションログ / Application logs
-│   └── 統計.py              # 使用統計 / Usage statistics
-├── 機能/                    # 追加機能 / Additional features
-│   ├── 音声.py              # 音声生成 / Audio generation
-│   ├── ファイル翻訳.py      # ファイル処理 / File processing
-│   └── ダウンロード.py      # ダウンロード機能 / Download feature
-├── 設定/                    # 設定 / Settings
-│   ├── 設定管理.py          # 言語設定 / Language settings
-│   └── テーマ.py            # UIテーマ / UI theme
-└── utils/                   # ユーティリティ / Utilities
-    └── 日付.py              # 日付処理 / Date utilities
+### アプリケーションの起動 / Start Application
+```bash
+streamlit run アプリ.py
 ```
 
-## 🔧 設定 / Configuration
+ブラウザが自動的に開き、`http://localhost:8501` にアクセスします。
+(The browser will open automatically at `http://localhost:8501`.)
 
-### 目標言語の変更 / Change Target Language
-
-`設定/設定管理.py` で目標言語を変更できます / You can change the target language in `設定/設定管理.py`:
-
-```python
-def 言語設定():
-    return "ja"  # "ja" for Japanese, "en" for English
-```
-
-### テーマのカスタマイズ / Theme Customization
-
-`設定/テーマ.py` でダークテーマを有効化 / Enable dark theme in `設定/テーマ.py`
-
-## 📊 統計とログ / Statistics and Logs
-
-- **翻訳回数 / Translation Count**: サイドバーに総翻訳回数を表示 / Total translation count shown in sidebar
-- **ログファイル / Log Files**: `データ/アプリログ.log` に詳細なログを記録 / Detailed logs saved to `データ/アプリログ.log`
-- **履歴ファイル / History File**: `データ/履歴.json` に翻訳履歴を保存 / Translation history saved to `データ/履歴.json`
-
-## 🐛 トラブルシューティング / Troubleshooting
-
-### 翻訳エラー / Translation Errors
-- インターネット接続を確認してください / Check your internet connection
-- Google Translate API の制限を確認 / Check Google Translate API limits
-
-### 言語検出の問題 / Language Detection Issues
-- 短いテキストの場合は英語と仮定されます / Short texts are assumed to be English
-- 特殊文字を含むテキストは正確に検出されない場合があります / Texts with special characters may not be detected accurately
-
-### 音声生成エラー / Audio Generation Errors
-- gTTS がインターネットを必要とします / gTTS requires internet connection
-- 長いテキストは音声生成に失敗する可能性があります / Long texts may fail audio generation
-
-## 🤝 貢献 / Contributing
-
-1. このリポジトリをフォーク / Fork this repository
-2. 機能ブランチを作成 / Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. 変更をコミット / Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. ブランチをプッシュ / Push to the branch (`git push origin feature/AmazingFeature`)
-5. プルリクエストを作成 / Open a Pull Request
-
-## 📄 ライセンス / License
-
-このプロジェクトは MIT ライセンスの下でライセンスされています / This project is licensed under the MIT License.
-
-## 🙏 謝辞 / Acknowledgments
-
-- [Streamlit](https://streamlit.io/) - UI フレームワーク / UI Framework
-- [deep-translator](https://github.com/nidhaloff/deep-translator) - 翻訳ライブラリ / Translation library
-- [gTTS](https://github.com/pndurette/gtts) - 音声生成 / Text-to-speech
-- [langdetect](https://github.com/Mimino666/langdetect) - 言語検出 / Language detection
-
-## 📞 サポート / Support
-
-質問や問題がある場合は、Issue を開いてください / For questions or issues, please open an Issue.
+### 翻訳手順 / How to Translate
+1. **テキスト入力**: 左側のエリアに翻訳したい文章を入力、またはドラッグ＆ドロップで `.txt` ファイルをアップロードします。
+2. **翻訳実行**: 「🚀 翻訳開始」ボタンをクリックします。
+3. **結果確認**: 右側に翻訳結果が表示されます。
+4. **音声・保存**: スピーカーアイコンで音声を再生、またはダウンロードボタンで結果を保存できます。
 
 ---
 
-**開発者 / Developer**: Arron Kian Parejas
-**バージョン / Version**: 1.0.0
-**最終更新 / Last Updated**: 2026
+## 🏗 プロジェクト構成 / Architecture
+
+```mermaid
+graph TD
+    A[User] -->|Input Text/File| B(Streamlit UI - アプリ.py)
+    B -->|Detect Language| C{Language Detection}
+    C -->|English| D[Translate to Japanese]
+    C -->|Japanese| E[Translate to English]
+    D & E -->|Result| F[Translation Engine]
+    F -->|Output| B
+    B -->|Generate Audio| G[gTTS Service]
+    B -->|Save History| H[History Manager]
+```
+
+- `アプリ.py`: メインアプリケーション (Main Entry Point)
+- `機能/`: 音声合成、ファイル処理 (Features: Audio, File Processing)
+- `翻訳/`: 翻訳ロジック、言語検出 (Translation Logic)
+- `データ/`: 履歴、ログ保存 (Data & Logs)
+- `設定/`: UIテーマ、言語設定 (Settings)
+
+---
+
+## 🐛 トラブルシューティング / Troubleshooting
+
+| 問題 / Issue | 解決策 / Solution |
+|--------------|-------------------|
+| **翻訳エラー (Translation Error)** | インターネット接続を確認してください。APIのレート制限の可能性があります。 (Check internet connection. Possible rate limit.) |
+| **音声が再生されない (No Audio)** | `gTTS` はインターネット接続が必要です。また、再生環境の音量を確認してください。 (Requires internet. Check system volume.) |
+| **文字化け (Mojibake)** | アップロードするテキストファイルが `UTF-8` エンコーディングであることを確認してください。 (Ensure uploaded files are UTF-8.) |
+
+---
+
+## 🤝 貢献 / Contributing
+
+Pull Request は大歓迎です！
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 ライセンス / License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙏 謝辞 / Acknowledgments
+
+- **Streamlit**: For the amazing app framework.
+- **deep-translator**: For making translation easy.
+- **gTTS**: For Google Text-to-Speech interface.
+
+---
+<div align="center">
+  Made with ❤️ by Arron Kian Parejas
+</div>
