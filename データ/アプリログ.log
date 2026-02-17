@@ -1,0 +1,316 @@
+2026-02-17 14:51:57,617 - INFO - 翻訳開始
+2026-02-17 14:51:58,033 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:52:34,567 - INFO - 翻訳開始
+2026-02-17 14:52:34,820 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:52:46,487 - INFO - 翻訳開始
+2026-02-17 14:52:46,738 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:54:20,699 - INFO - 翻訳開始
+2026-02-17 14:54:20,831 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:54:27,570 - INFO - 翻訳開始
+2026-02-17 14:54:27,575 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:56:43,537 - INFO - 翻訳開始
+2026-02-17 14:56:43,544 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:56:47,234 - INFO - 翻訳開始
+2026-02-17 14:56:47,237 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:56:52,432 - INFO - 翻訳開始
+2026-02-17 14:56:52,435 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:57:01,177 - INFO - 翻訳開始
+2026-02-17 14:57:01,185 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:57:14,210 - INFO - 翻訳開始
+2026-02-17 14:57:14,216 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:57:22,610 - INFO - 翻訳開始
+2026-02-17 14:57:22,625 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 14:58:05,691 - INFO - 翻訳開始
+2026-02-17 14:58:05,694 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:02:33,845 - INFO - 翻訳開始
+2026-02-17 15:02:33,860 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:05:58,201 - INFO - 翻訳開始
+2026-02-17 15:05:58,331 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:06:02,859 - INFO - 翻訳開始
+2026-02-17 15:06:02,881 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:07:01,392 - INFO - 翻訳開始
+2026-02-17 15:07:01,416 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:09:57,600 - INFO - 翻訳開始
+2026-02-17 15:09:57,752 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:10:02,270 - INFO - 翻訳開始
+2026-02-17 15:10:02,295 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:10:33,462 - INFO - 翻訳開始
+2026-02-17 15:10:33,466 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:10:37,836 - INFO - 翻訳開始
+2026-02-17 15:10:37,846 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:11:45,433 - INFO - 翻訳開始
+2026-02-17 15:11:45,443 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:11:48,715 - INFO - 翻訳開始
+2026-02-17 15:11:48,726 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:11:49,633 - INFO - 翻訳開始
+2026-02-17 15:11:49,644 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:11:49,829 - INFO - 翻訳開始
+2026-02-17 15:11:49,839 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:11:50,095 - INFO - 翻訳開始
+2026-02-17 15:11:50,102 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:11:50,297 - INFO - 翻訳開始
+2026-02-17 15:11:50,305 - ERROR - 翻訳エラー: Cannot hash argument '関数' (of type `builtins.function`) in 'キャッシュ翻訳'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def キャッシュ翻訳(_関数, ...):
+    ...
+```
+            
+2026-02-17 15:14:16,880 - INFO - 翻訳開始
+2026-02-17 15:14:17,019 - INFO - 翻訳成功
+2026-02-17 15:14:27,353 - INFO - 翻訳開始
+2026-02-17 15:14:27,672 - INFO - 翻訳成功
