@@ -163,4 +163,4 @@ def 言語設定():
 
 **開発者 / Developer**: Arron Kian Parejas
 **バージョン / Version**: 1.0.0
-**最終更新 / Last Updated**: 2024
+**最終更新 / Last Updated**: 2026
